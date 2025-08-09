@@ -12,6 +12,13 @@ A ROS 2 Lifecycle Action Server for controlling the Waffle TurtleBot in Gazebo v
 ```bash
 colcon build
 source install/setup.bash
-ros2 launch waffle_turtlebot final_project_turtlebot.launch.xml
+ros2 launch waffle_turtlebot waffle_turtlebot.launch.xml
+```
 
+## 🛠 Requirements
+
+- ROS 2 Jazzy
+- Gazebo Sim
+- ros_gz_bridge
+- turtlebot3_gazebo models
 

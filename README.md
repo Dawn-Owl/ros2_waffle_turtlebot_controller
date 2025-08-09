@@ -2,6 +2,11 @@
 
 A ROS 2 Lifecycle Action Server for controlling the Waffle TurtleBot in Gazebo via `/cmd_vel`.
 
+## 🖼️ Simulation Preview
+
+![Waffle TurtleBot](images/waffle_turtle.png)
+
+
 ## 📌 Features
 - LifecycleNode-based action server
 - Publishes velocity commands to `/cmd_vel`
